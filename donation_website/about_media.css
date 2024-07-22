@@ -1,0 +1,275 @@
+
+@media (max-width:768px){
+    .header{
+        width: 100%;
+    }
+    .header_container{
+        width: 96%;
+        margin: auto;
+        height: 100px;
+        display: flex;
+        flex-direction: column ;
+    }
+    .logo{
+        text-align: center;
+    }
+    .menu{
+        margin: 10px 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .our_charity{
+        margin-top: 100px;
+        height: 950px;
+        width: 100%;
+        background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/welcome-bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .charity_container{
+        height: 950px;
+        width: 96%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .charity_container .content{
+        height: 380px;
+        width: 90%;
+        color: white;
+        margin: auto;
+        padding: 0px 0px;
+    }
+    .charity_container .image_welcome{
+        margin-top: 30%;
+        margin: auto;
+        height: 400px;
+        width: 96%;
+        padding: 0px 0px;
+    }
+    .image_welcome .image{
+        height: 400px;
+        width: 100%;
+        margin-top: 0%;
+    } 
+    .image_welcome .image img{
+        height: 100%;
+        width: 100%;
+    }
+    .ranges{
+        height: auto;
+    }
+    .range_container{
+        height: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .boxes{
+        width: 50%;
+    }
+    .boxes  h2{
+        position: relative;
+        bottom: 110px;
+        left: 0px;
+        right: 0%;
+        color: white;
+    }
+    .boxes  h1{
+        position: relative;
+        right: 0%;
+        left: 0px;
+        color: white;
+        font-size: 20px;
+    }
+
+    .profile_container{
+        width: 96%;
+    }
+    .profile{
+        height: 400px;
+        width:50%;
+        padding: 20px 20px;
+    }
+    .about{
+        margin-top: 50px;
+        height: 200px;
+    }
+    .about_container{
+        width: 96%;
+        height: 200px;
+    }
+    .about_container h1{
+        font-size: 30px;
+    }
+
+    .footer{
+        height: 600px
+    }
+    .footer_container{
+        flex-wrap: wrap;                                
+    }
+    .foot-menu1{
+        width: 50%;
+        height: 280px;
+    }
+    .foot-menu2{
+        margin-top: -3%;
+        width: 50%;
+        height: 280px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .foot{
+        width:100%;
+        display: flex;
+        justify-content: flex-start;   
+    }
+    .foot .footlist1{
+        margin-left: 120px;
+        margin-top: 4%;
+    }
+}
+
+
+@media (max-width:480px){   
+    .header{
+        width: 100%;   
+    }
+    .header_container{
+        width: 96%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .menu ul li{
+        padding: 10px 0px;
+    }
+    #home::after{
+        content: '';
+        display: none;
+        border-bottom: 3px solid orangered;
+        padding-top: 20px;
+    }
+    .our_charity{
+        margin-top: 100px;
+        height: 980px;
+        width: 100%;
+        background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/welcome-bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .charity_container .content{
+        height: 410px;
+        width: 90%;
+        color: white;
+        margin: auto;
+        padding: 0px 0px;
+    }
+    .ranges{
+        height: auto;
+    }
+    .range_container{
+        height: 1100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .boxes{
+        width: 96%;
+        height: 250px;
+    }
+    .boxes  h2{
+        position: relative;
+        bottom: 110px;
+        left: 0px;
+        right: 0%;
+        color: white;
+    }
+    .boxes  h1{
+        position: relative;
+        right: 0%;
+        left: 0px;
+        color: white;
+        font-size: 20px;
+    }
+    .profile_container{
+        width: 96%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .profile{
+        height: 300px;
+        width: 100%;
+        padding: 20px 20px;
+    }
+    .about{
+        margin-top: 70%;
+        height: 200px;
+    }
+    .about_container{
+        width: 96%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about_container h1{
+        font-size: 30px;
+    }
+
+    .footer{
+        height: 1100px;
+    }
+
+    .footer_container{
+        display: flex;
+        flex-wrap: wrap;                       
+    }
+    .foot-menu1{
+        width: 96%;
+        height: 280px;
+    }
+    .foot-menu2{
+        margin-top: 4%;
+        width: 50%;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .foot{
+        width:100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .foot .footlist1{
+        margin-left: 0px;
+        margin-top: 4%;
+    }
+    .foot-menu2{
+        width: 96%;
+    }
+    input{
+        width: 100%;
+    }
+    .send button{
+        left: 80%;
+    }
+
+}
